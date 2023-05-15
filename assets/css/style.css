@@ -9,6 +9,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20%;
+  
+  z-index: 9999; /* Valor alto de z-index */
+}
+
+
 #myVideo {
   position: fixed;
   right: 0;
