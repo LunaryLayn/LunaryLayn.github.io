@@ -270,7 +270,7 @@ $(function() {
       },
       error: function() {
         // Aquí puedes manejar cualquier error que ocurra durante la solicitud
-        alert('Ocurrió un error al enviar tu mensaje.');
+        alert('Ocurrió un error al enviar tu mensaje: Actualmente no se puede enviar tu mensaje a traves del formulario ya que este hosting no permite codigo PHP, por favor, utiliza otro de los metodos de contacto');
       }
     });
   });
