@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -45,16 +45,17 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./skills.html">Habilidades técnicas</a></li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="./contact.html">Contacto</a></li>
+                                <li class="active"><a id="home" href="./index.html">Home</a></li>
+                                <li><a id="skills" href="./skills.html">Habilidades técnicas</a></li>
+                                <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
+                                <li><a id="contact" href="./contact.html">Contacto</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="mailto:lainedevwork@gmail.com"><i class="fa fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/hugo-polo/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCZTFF6sGuKeXdozUDy-198Q"><i class="fa fa-youtube-play"></i></a>
+                            <img id="btnLanguage" src="img/icons/esflag.png" alt="" style="width: 23px;"/>
                         </div>
                     </div>
                 </div>
@@ -113,8 +114,8 @@
                 <div class="col-lg-6">
                     <div class="hero__text">
                         <span>Hugo Polo Gonzalez</span>
-                        <h2>Android developer</h2>
-                        <a href="#" class="primary-btn">¡Contáctame!</a>
+                        <h2 id="developer">Android</h2>
+                        <a id="contact-me" href="#" class="primary-btn">¡Contáctame!</a>
                     </div>
                 </div>
             </div>
@@ -131,16 +132,13 @@
                 <div class="col-lg-4">
                     <div class="services__title">
                         <div class="section-title">
-                            <span>Acerca de:</span>
-                            <h2>¿Cómo trabajo?</h2>
+                            <span id="about">Acerca de:</span>
+                            <h2 id="work">¿Cómo trabajo?</h2>
                         </div>
-                        <p>Si tienes una idea, escribeme para que podamos plantear tu proyecto. Sin compromiso.
+                        <p id="idea">Si tienes una idea, escribeme para que podamos plantear tu proyecto. Sin compromiso.
                             <br> <br> También estoy abierto a escuchar ofertas laborales.
                         </p>
-                        <a href="#" class="primary-btn">¡Contáctame!</a>
-
-                        <br> <br>
-                        <a href="#" class="primary-btn">Ver portfolio</a>
+                        <a id="see-portfolio" href="#" class="primary-btn">Ver portfolio</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -150,8 +148,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/sharp_settings_white_24dp.png" alt="">
                                 </div>
-                                <h4>Ultimas tecnologías</h4>
-                                <p>Siempre actualizados, aplicamos las ultimas tecnologías disponibles para maximizar la
+                                <h4 id="last-tech">Ultimas tecnologías</h4>
+                                <p id="last-tech-desc">Siempre actualizados, aplicamos las ultimas tecnologías disponibles para maximizar la
                                     calidad y el rendimiento de tus aplicaciones.</p>
                             </div>
                         </div>
@@ -160,8 +158,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/sharp_brush_white_24dp.png" alt="">
                                 </div>
-                                <h4>Diseño y experiencia (UI/UX)</h4>
-                                <p>Mimamos y cuidamos la presentación y la experiencia de uso de tus aplicaciones para
+                                <h4 id="user-experience">Diseño y experiencia (UI/UX)</h4>
+                                <p id="user-experience-desc">Mimamos y cuidamos la presentación y la experiencia de uso de tus aplicaciones para
                                     asegurarnos de satifacer a tus usuarios.</p>
                             </div>
                         </div>
@@ -170,8 +168,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/sharp_payments_white_24dp.png" alt="">
                                 </div>
-                                <h4>Monetización y analíticas</h4>
-                                <p>Los datos son importantes. Incluiremos analíticas, para que puedas saber como tus
+                                <h4 id="monetize">Monetización y analíticas</h4>
+                                <p id="monetize-desc">Los datos son importantes. Incluiremos analíticas, para que puedas saber como tus
                                     usuarios utilizan su tiempo en tu aplicación. Ademas, podemos incluir distintos
                                     modelos de monetización para que puedas obtener beneficios de tu aplicación.</p>
                                 </p>
@@ -182,8 +180,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/sharp_published_with_changes_white_24dp.png" alt="">
                                 </div>
-                                <h4>Publicación en las Stores</h4>
-                                <p>Gestionaremos la publicación de tu aplicación para que no tengas que preocuparte por
+                                <h4 id="store">Publicación en las Stores</h4>
+                                <p id="store-desc">Gestionaremos la publicación de tu aplicación para que no tengas que preocuparte por
                                     la puesta en producción de tu proyecto.</p>
                             </div>
                         </div>
@@ -197,68 +195,7 @@
     <!-- Footer Section Begin -->
     <footer class="footer">
         <div class="container">
-            <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__option">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__option__item">
-                            <h5>About us</h5>
-                            <p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-                                production company specializing.</p>
-                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Who we are</h5>
-                            <ul>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Carrers</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Locations</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Our work</h5>
-                            <ul>
-                                <li><a href="#">Feature</a></li>
-                                <li><a href="#">Latest</a></li>
-                                <li><a href="#">Browse Archive</a></li>
-                                <li><a href="#">Video for web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="footer__option__item">
-                            <h5>Newsletter</h5>
-                            <p>Videoprah is an award-winning, full-service production company specializing.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <div class="footer__copyright">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -268,7 +205,7 @@
                                 document.write(new Date().getFullYear());
                             </script>
                             All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> and modified by Hugo
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -287,6 +224,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

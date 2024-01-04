@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -43,16 +43,17 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li ><a href="./index.html">Home</a></li>
-                                <li><a href="./skills.html">Habilidades técnicas</a></li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li class="active"><a href="./contact.html">Contacto</a></li>
+                                <li ><a id="home" href="./index.html">Home</a></li>
+                                <li ><a id="skills" href="./skills.html">Habilidades técnicas</a></li>
+                                <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
+                                <li class="active"><a id="contact" href="./contact.html">Contacto</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="mailto:lainedevwork@gmail.com"><i class="fa fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/hugo-polo/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCZTFF6sGuKeXdozUDy-198Q"><i class="fa fa-youtube-play"></i></a>
+                            <img id="btnLanguage" src="img/icons/esflag.png" alt="" style="width: 23px;"/>
                         </div>
                     </div>
                 </div>
@@ -68,10 +69,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Contact us</h2>
+                        <h2 id="contact2">Contáctame</h2>
                         <div class="breadcrumb__links">
                             <a href="#">Home</a>
-                            <span>Contact</span>
+                            <span id="contact3">Contacto</span>
                         </div>
                     </div>
                 </div>
@@ -79,6 +80,26 @@
         </div>
     </div>
     <!-- Breadcrumb End -->
+    <style>
+         body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-widget {
+        flex: 1;
+    }
+
+    .contact-widget p {
+        margin-bottom: 0; /* Elimina el margen inferior del párrafo para evitar espacio adicional */
+    }
+
+    .footer {
+        margin-top: auto;
+    }
+    </style>
 
     <!-- Contact Widget Section Begin -->
     <section class="contact-widget spad">
@@ -91,7 +112,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>LinkedIn</h4>
-                            <p>Los Angeles Gournadi, 1230 Bariasl</p>
+                            <p><a href="https://www.linkedin.com/in/hugo-polo/">Hugo Polo</a></p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +123,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>Email</h4>
-                            <p>Support@gmail.com</p>
+                            <p>lainedevwork@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -113,14 +134,14 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>Youtube</h4>
-                            <p>Support@gmail.com</p>
+                            <p><a id="channel" href="https://www.youtube.com/channel/UCZTFF6sGuKeXdozUDy-198Q">Mi canal</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <br><br>
-        <p class="text-center">Si tienes una idea, escribeme para que podamos plantear tu proyecto. Sin compromiso.
+        <p id="idea" class="text-center">Si tienes una idea, escribeme para que podamos plantear tu proyecto. Sin compromiso.
             <br>
             También estoy abierto a escuchar ofertas laborales.</p>
     </section>
@@ -129,68 +150,6 @@
     <!-- Footer Section Begin -->
     <footer class="footer">
         <div class="container">
-            <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__option">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer__option__item">
-                            <h5>About us</h5>
-                            <p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-                                production company specializing.</p>
-                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3">
-                        <div class="footer__option__item">
-                            <h5>Who we are</h5>
-                            <ul>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Carrers</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Locations</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3">
-                        <div class="footer__option__item">
-                            <h5>Our work</h5>
-                            <ul>
-                                <li><a href="#">Feature</a></li>
-                                <li><a href="#">Latest</a></li>
-                                <li><a href="#">Browse Archive</a></li>
-                                <li><a href="#">Video for web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="footer__option__item">
-                            <h5>Newsletter</h5>
-                            <p>Videoprah is an award-winning, full-service production company specializing.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="footer__copyright">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -200,7 +159,7 @@
                                 document.write(new Date().getFullYear());
                             </script>
                             All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> and modified by Hugo
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -219,6 +178,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
