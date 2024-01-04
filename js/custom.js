@@ -332,6 +332,7 @@ function loadText(newLang) {
     $('#testing').text(translate('testing', newLang));
     $('#other-tools').text(translate('other-tools', newLang));
     $('#version-control').text(translate('version-control', newLang));
+    $('#channel').text(translate('channel', newLang));
     
 }
 
