@@ -144,7 +144,7 @@ var portfolioListEs = [
         category: 'Proyecto de Portfolio',
         images: ['img/portfolio/blockfolio/login.jpg', 'img/portfolio/blockfolio/register.jpg', 'img/portfolio/blockfolio/main1.jpg', 'img/portfolio/blockfolio/addstuff.jpg', 'img/portfolio/blockfolio/main2.jpg', 'img/portfolio/blockfolio/searchbar.jpg', 'img/portfolio/blockfolio/main3.jpg'],
         description: "Aplicación Android desarrollada en Kotlin como proyecto de portfolio para la gestión de una cartera de criptomonedas. La aplicación cuenta con funcionalidades como autenticación de usuarios con Firebase, obtención de datos de APIs con Retrofit de <a href=\"https://www.coingecko.com\">CoinGecko</a>, almacenamiento de datos en una base de datos local con Room, diseño responsivo con Compose, notificaciones, y más.",
-        video: "https://www.youtube.com/embed/qy3IU5JCwYU"
+        video: "https://www.youtube.com/embed/ijznqQRvOww"
     },
     
     {
