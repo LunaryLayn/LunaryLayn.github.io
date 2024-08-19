@@ -105,8 +105,8 @@ const translations = {
         'es': 'Testing'
     },
     'other-tools': {
-        'en': 'Other tools',
-        'es': 'Otras herramientas'
+        'en': 'General technologies',
+        'es': 'Tecnologías generales'
     },
     'version-control': {
         'en': 'Version control - CD/CI',
