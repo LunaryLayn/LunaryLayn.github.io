@@ -124,6 +124,7 @@ var portfolioListEs = [
         category: 'Proyecto laboral - Padmi',
         images: ['img/portfolio/padmi/padmi1.jpg', 'img/portfolio/padmi/padmi2.png', 'img/portfolio/padmi/padmi3.jpg', 'img/portfolio/padmi/padmi4.jpg', 'img/portfolio/padmi/padmi5.jpg', 'img/portfolio/padmi/padmi6.jpg', 'img/portfolio/padmi/padmi7.jpg'],
         description: 'Padmi es una aplicación innovadora que ayuda a los jugadores de padel a llegar al siguiente nivel. A traves de un sistema de IA, la aplicación analiza los partidos de los usuarios, y les brinda información sobre sus puntos fuertes y debiles, y como mejorarlos. En este proyecto, he trabajado como líder del desarrollo.',
+        url: "https://play.google.com/store/apps/details?id=com.padmi.app&hl=es",
     },
     {
         name: 'CryptoWatcher',
@@ -177,6 +178,7 @@ var portfolioListEn = [
         category: 'Job Project - Padmi',
         images: ['img/portfolio/padmi/padmi1.jpg', 'img/portfolio/padmi/padmi2.png', 'img/portfolio/padmi/padmi3.jpg', 'img/portfolio/padmi/padmi4.jpg', 'img/portfolio/padmi/padmi5.jpg', 'img/portfolio/padmi/padmi6.jpg', 'img/portfolio/padmi/padmi7.jpg'],
         description: 'Padmi is an innovative application that helps paddle tennis players reach the next level. Through an AI system, the app analyzes users\' matches, providing them with information about their strengths and weaknesses, and how to improve them. In this project, I have worked as the lead developer.',
+        url: "https://play.google.com/store/apps/details?id=com.padmi.app&hl=es",
     },
     {
         name: 'CryptoWatcher',
